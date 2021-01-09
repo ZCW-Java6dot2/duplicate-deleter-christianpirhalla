@@ -1,0 +1,15 @@
+public boolean checkIsDuplicate(Character c, Character[] charArray){
+    int occurrences = 0;
+    for (Character currChar : charArray){
+    if (c == currChar) { occurrences++; }
+    }
+    return (occurrences > 1);
+}
+
+public char[] countDuplicatesAndReturn(){
+    for (Character currChar : charArray){
+
+    if (checkIsDuplicate(currchar)
+    }
+
+}
